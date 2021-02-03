@@ -1,0 +1,62 @@
+html,
+body,
+p {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: medium;
+}
+.container {
+  height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.top {
+  display: flex;
+  justify-content: flex-end;
+}
+.center {
+  padding-block-end: 300px;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+}
+.search {
+  display: flex;
+  justify-content: center;
+  border-radius: 40px;
+  outline: none;
+  height: 35px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: medium;
+  border: 0;
+  padding: 5px 10px;
+}
+.low {
+  background-color: gainsboro;
+}
+.country {
+  background-color: gainsboro;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid black;
+}
+.block1 {
+  background-color: gainsboro;
+}
+.block2 {
+  background-color: gainsboro;
+}
+.block3 {
+  background-color: gainsboro;
+}
